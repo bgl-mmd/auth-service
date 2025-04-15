@@ -1,0 +1,19 @@
+[project]
+name = "auth-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mmd", email = "bgl.mmd@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+]
+
+[project.scripts]
+auth-service = "auth_service:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
