@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-auth-service = "auth_service:main"
+auth-service = "auth_service.main:run"
 
 [build-system]
 requires = ["hatchling"]
